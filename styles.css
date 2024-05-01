@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+
+p, h2{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;    
+    /* change the bg color accordingly */
+    display: grid;
+    place-items: center;
+}
+
+main{
+    margin: 20px;
+    border: 2px solid red;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: grid;
+    place-items: center;
+}
+
+
+.profile-pic{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#jessica{
+    border-radius: 50%;
+    height: 76px;
+}
+
+.about-me{
+    margin-bottom: 20px;
+}
+
+.description{
+    margin-bottom: 16px;
+}
+
+
+.buttons{
+    border: 2px solid blue;
+    height: 600px;
+    width: 100%;
+}
