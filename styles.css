@@ -75,3 +75,7 @@ button{
 #last-button{
     margin-bottom: 25px;
 }
+
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+}
